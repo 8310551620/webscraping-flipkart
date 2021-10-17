@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as Req
-uClient="https://www.flipkart.com/search?q=iphone&otracker=start&as-show=on&as=off"
+my_url="https://www.flipkart.com/search?q=iphone&otracker=start&as-show=on&as=off"
 
 uClient=uReq(my_url)
 page_html=uClient.read()
